@@ -13,7 +13,7 @@ namespace CamCapture
     {
         public Form1()
         {
-            InitializeComponent();  
+            InitializeComponent();
         }
 
         private FilterInfoCollection CameraCapture;
@@ -51,8 +51,6 @@ namespace CamCapture
             video.NewFrame += new NewFrameEventHandler(Video_NewFrame);
             video.SnapshotFrame += Video_SnapshotFrame;
             video.Start();
-
-            
         }
 
         private void VideoSource_NewFrame(object sender, NewFrameEventArgs eventArgs)

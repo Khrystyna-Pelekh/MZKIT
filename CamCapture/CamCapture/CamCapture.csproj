@@ -33,72 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AForge">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Controls">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Controls.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.DebuggerVisualizers %282010%29">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.DebuggerVisualizers (2010).dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Fuzzy">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Fuzzy.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Genetic">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Genetic.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Imaging">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Imaging.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Imaging.Formats">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Imaging.Formats.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Imaging.IPPrototyper">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Imaging.IPPrototyper.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.MachineLearning">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.MachineLearning.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Math, Version=2.2.5.0, Culture=neutral, PublicKeyToken=abba2e25397ee8c9, processorArchitecture=MSIL">
+    <Reference Include="AForge, Version=2.2.5.0, Culture=neutral, PublicKeyToken=c1db6ff4eaa06aeb, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Math.dll</HintPath>
+      <HintPath>..\..\libs\AForge.dll</HintPath>
     </Reference>
-    <Reference Include="AForge.Neuro">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Neuro.dll</HintPath>
+    <Reference Include="AForge.Video, Version=2.2.5.0, Culture=neutral, PublicKeyToken=cbfb6e07d173c401, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\AForge.Video.dll</HintPath>
     </Reference>
-    <Reference Include="AForge.Robotics.Lego">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Robotics.Lego.dll</HintPath>
+    <Reference Include="AForge.Video.DirectShow, Version=2.2.5.0, Culture=neutral, PublicKeyToken=61ea4348d43881b7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\AForge.Video.DirectShow.dll</HintPath>
     </Reference>
-    <Reference Include="AForge.Robotics.Surveyor">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Robotics.Surveyor.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Robotics.TeRK">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Robotics.TeRK.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Video">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Video.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Video.DirectShow">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Video.DirectShow.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Video.FFMPEG">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Video.FFMPEG.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Video.Kinect">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Video.Kinect.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Video.VFW">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Video.VFW.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Video.Ximea">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Video.Ximea.dll</HintPath>
-    </Reference>
-    <Reference Include="AForge.Vision">
-      <HintPath>..\..\..\..\Downloads\AForge.NET Framework-2.2.5\Release\AForge.Vision.dll</HintPath>
-    </Reference>
-    <Reference Include="NAudio">
-      <HintPath>..\..\..\..\Downloads\Tutorial7\Tutorial7\NAudio.dll</HintPath>
+    <Reference Include="NAudio, Version=1.4.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libs\NAudio.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
