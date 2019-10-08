@@ -126,16 +126,15 @@ namespace CamCapture
                     .Split('-') // -> [] // AA-03-FF...
                     .Select(b => Convert.ToString(Convert.ToInt64(b, 16), 2));
 
-                /*
-                string hexString = BitConverter.ToString(BinaryCode);
-                string[] hexArray = hexString.Split('-'); // -> [] // AA-03-FF...
-                List<string> binnaryArray = new List<string>();
-                foreach (var hex in hexArray)
-                {
-                    long hexAsDec = Convert.ToInt64(hex, 16);
-                    string bin = Convert.ToString(hexAsDec, 2);
-                    binnaryArray.Add(bin);
-                }*/
+                //string hexString = BitConverter.ToString(BinaryCode);
+                //string[] hexArray = hexString.Split('-'); // -> [] // AA-03-FF...
+                //List<string> binnaryArray = new List<string>();
+                //foreach (var hex in hexArray)
+                //{
+                //    long hexAsDec = Convert.ToInt64(hex, 16);
+                //    string bin = Convert.ToString(hexAsDec, 2);
+                //    binnaryArray.Add(bin);
+                //}
 
                 File.WriteAllText(@"D:\convert.txt", string.Join(Environment.NewLine, a));
             }
